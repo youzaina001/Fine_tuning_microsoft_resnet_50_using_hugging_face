@@ -1,5 +1,5 @@
 import streamlit as st
-from transformers import AutoModelForImageClassification, AutoFeatureExtractor
+from transformers import AutoImageProcessor, AutoFeatureExtractor, ResNetForImageClassification
 from PIL import Image
 import torch
 
@@ -20,7 +20,9 @@ class_names = [
 
 # Load the fine-tuned model
 model_name = "finetuned_model"
-model = AutoModelForImageClassification.from_pretrained(model_name)
+
+processor = AutoImageProcessor.from_pretrained(model_name)
+model = ResNetForImageClassification.from_pretrained(model_name)
 
 # Load the feature extractor
 feature_extractor = AutoFeatureExtractor.from_pretrained(model_name)
