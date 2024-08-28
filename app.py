@@ -19,9 +19,8 @@ class_names = [
 ]
 
 # Load the fine-tuned model
-model_name = "microsoft/resnet-50"  # Replace with the path to your fine-tuned model if necessary
+model_name = "finetuned_model"
 model = AutoModelForImageClassification.from_pretrained(model_name)
-model.eval()
 
 # Load the feature extractor
 feature_extractor = AutoFeatureExtractor.from_pretrained(model_name)
