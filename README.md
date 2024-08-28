@@ -1,7 +1,3 @@
-# Hugging_face_vision_certification_project
-
-## ResNet-50 / CIFAR-100 : Fine-tuned ResNet50 on CIFAR-100 Dataset.
-
 # Image Classification with ResNet-50 Fine-Tuning
 
 This repository provides a Jupyter Notebook for fine-tuning the ResNet-50 model on the CIFAR-100 dataset using the Hugging Face Transformers library. The goal is to fine-tune a pre-trained model to classify images into 100 different categories.
