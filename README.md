@@ -80,8 +80,4 @@ The training script is set up to:
 
 After training, the model is evaluated on the test dataset to calculate accuracy and loss. The results are printed in the notebook.
 
-## Results
-
-- The trained model is capable of classifying images into 100 different categories with improved accuracy over the baseline pre-trained ResNet-50.
-
 
