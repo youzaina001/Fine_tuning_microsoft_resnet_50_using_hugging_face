@@ -15,7 +15,7 @@ This repository provides a Jupyter Notebook for fine-tuning the ResNet-50 model 
 
 ## Introduction
 
-ResNet-50 is a deep residual network that has shown excellent performance in various image classification tasks. In this project, a pre-trained ResNet-50 model on the CIFAR-100 dataset is fine-tuned in order to improve its accuracy in classifying images into 100 categories.
+ResNet-50 is a deep residual network that has shown excellent performance in various image classification tasks. In this project, a pre-trained ResNet-50 model is fine-tuned on the CIFAR-100 dataset in order to improve its accuracy in classifying images into 100 categories.
 
 ## Dataset
 
